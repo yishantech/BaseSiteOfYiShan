@@ -1,0 +1,156 @@
+/**
+*Navmenu Styling 1
+*/
+
+.flat_responsive_menu {
+}
+.flat_responsive_menu > ul {
+	margin:0px;
+	padding:0px;
+} 
+ul.navmenu,
+.navmenu ul{
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+ul.mobilemenu {
+	display:none;
+}
+	
+ul.navmenu > li,
+.navmenu ul > li { 
+	list-style:none;
+	text-decoration:none;
+	float:left;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+ul.navmenu > li >  a,
+.navmenu ul > li > a {
+	display:block;
+	padding:0rem 0.7rem;
+	list-style:none;
+	font-size: 0.85rem;
+	color: #000;
+	font-weight:normal;
+	line-height:80px;
+}
+ul.navmenu ul.sub-menu > li a{
+	line-height: 30px;
+}
+.navmenu ul ul.children{
+	display: none !important;
+}
+ul.navmenu > li:hover > a {
+	background-color:none!important;
+	color:#888;
+}
+ul.navmenu > li > a:hover,
+ul.navmenu > li > a:focus,
+ul.navmenu > li > a:active,
+.navmenu ul >  li > a:hover,
+.navmenu ul > li > a:focus,
+.navmenu ul > li > a:active {
+	outline:none;
+	color:#888;
+	background-color:none;
+}
+ul.navmenu ul.sub-menu{
+	margin:0px;
+	text-align: center;
+	display: none;
+	position: absolute;
+	z-index: 99999;
+	width:300px;
+	margin-top:0px;
+	top:80px;
+	right: 0em!important;
+	background-color:#EAEAEA;
+}
+
+ul.navmenu ul.sub-menu > li{
+	list-style:none;
+	text-decoration:none;
+	border-bottom: 1px solid #DADADA;
+	display:block;
+	width:100%;
+	margin:0px;
+
+}
+ul.navmenu ul.sub-menu > li > a{
+	padding: 0.6rem 1rem;
+	display:block;
+	color:#505050;
+	list-style:none;
+	font-size: 0.75rem;
+	width:100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu {
+	right: 100%!important;
+	top:0.2rem;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu:before {
+	display:none;
+}
+ul.navmenu ul.sub-menu > li > ul.sub-menu > li > a {
+	padding: 0.6em 1em;
+	font-size: 0.75rem;
+}
+.navmenu .sub-menu li,
+.navmenu .children li {
+	text-transform:none;
+}
+.navmenu .sub-menu ul,
+.navmenu .children ul {
+	right: 0%;
+	top: 0;
+}
+ul.navmenu ul.sub-menu > li > a:hover,
+ul.navmenu ul.sub-menu > li > a:focus,
+ul.navmenu ul.sub-menu > li > a:active {
+	background-color:#505050;
+	color:#EAEAEA;
+}
+ul.navmenu ul a,
+.navmenu ul ul a {
+	margin: 0;
+	width: 100%;
+	padding: 8px 15px;
+}
+
+ul.navmenu li:hover > ul,
+.navmenu ul li:hover > ul {
+	display: block;
+	margin-right:-100px;
+   	right: 50%;
+}
+ul.navmenu li:hover ul ul,
+.navmenu ul li:hover ul ul {
+	margin-right:auto;
+   	right: 90%;
+}
+.navmenu .current_page_item > a,
+.navmenu .current_page_ancestor > a,
+.navmenu .current-menu-item > a,
+.navmenu .current-menu-ancestor > a {
+	outline:none;
+	background-color:none;
+	color:#888;
+	font-style:italic;
+}
+.toggle_button_flat_responsive_menu {
+	display:none;
+}
+ul.navmenu ul.sub-menu .current_page_item > a, 
+ul.navmenu ul.sub-menu .current_page_ancestor > a, 
+ul.navmenu ul.sub-menu .current-menu-item > a,
+ul.navmenu ul.sub-menu .current-menu-ancestor > a{
+	background-color:#fff!important;
+	color:#888;
+}

@@ -1,0 +1,70 @@
+/* Default css created by Shahid
+-------------------------------------------------- */
+/* Navbar Menus Style */
+.navbar .nav > .open >  a,.navbar .nav > .open >  a:hover,.navbar .nav > .open >  a:focus ,.navbar .nav > .active > a,.navbar .nav > .active > a:hover,.navbar .nav > .active > a:focus,.navbar .nav li.dropdown.open > .dropdown-toggle,.navbar .nav li.dropdown.active > .dropdown-toggle,.navbar .nav li.dropdown.open.active > .dropdown-toggle, .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled], .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus , .flex_btn, a.featured_port_projects_btn, .purchase_now_btn, .Search_btn , .search-btn, .read_more, .sign_up, .newsletter_btn, a.aboutus_readmore, .comment_btn,#comment_btn, .shortcode_btn, #wp-calendar caption, .pagination ul li a.active,.pagination > ul > li > a:hover, .portfolio_showcase .portfolio_showcase_icons a  { background-color: #ff4c2f; }
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .features_tabs > .active > a, .features_tabs  > .active > a:hover, .features_tabs  > .active > a:focus
+{ background: #ff4c2f !important; }
+
+.open .dropdown-menu{
+border-top:2px #ff4c2f solid !important;
+border-bottom:2px #ff4c2f solid !important;
+}
+.navbar .nav li.dropdown > .dropdown-toggle .caret { 
+  border-top-color: #ff4c2f;
+  border-bottom-color: #ff4c2f;
+  
+}
+.dropdown-submenu > a:after, .dropdown-submenu:hover > a:after  { border-left-color: #ff4c2f;}
+
+.navbar .btn-navbar {
+  background-color: #ff4c2f;
+  background-image: -moz-linear-gradient(top, #ff4c2f, #ff4c2f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff4c2f), to(#ff4c2f));
+  background-image: -webkit-linear-gradient(top, #ff4c2f, #ff4c2f);
+  background-image: -o-linear-gradient(top, #ff4c2f, #ff4c2f);
+  background-image: linear-gradient(to bottom, #ff4c2f, #ff4c2f);
+  background-repeat: repeat-x;
+}
+ /*-- Logo css --*/
+.logo-title, .home_service_btn:hover, .team_section h4 a, .sidebar_link a:hover, .sidebar_link a.active, .reply a, .leave_comment_section label span, 
+.widget_archive ul li a i, .widget_categories ul li a i, .sidebar_widget ul li a i, .para_tooltip a, .para_tooltip a:hover,p.text_error, .shortcode_coloumn label span, a.continue_readmore, .testimonial_author span, .pagination ul > li > a, .pagination ul > li > span, .pager li > a, .pager li > span, a , .sidebar_widget ul li a:hover, .sidebar_widget ul li a.active  { color: #ff4c2f; }
+
+.blog_section2_comment a:hover , .blog_section2 h2 a:hover, .blog_single_post h2 a:hover { color: #ff4c2f !important;}
+
+.head_title h3, .team_head_title h3, .latest_news_title h3, .blog_single_post_head_title h3, .typography_head_title h3, .shortcode_head_title h3, 
+.service_head_title h3, .porfolio_detail_title h3, .widget_title h2 { border-bottom: 2px solid #ff4c2f; }
+/* ------Footer Section Css ----------*/
+a.blog_section_readmore, a.blog_section2_readmore,.more-link{
+    background: none repeat scroll 0 0 #ff4c2f;
+}
+ .blog_single_post  blockquote,.blog_section2 blockquote, .typography_coloumn blockquote { border-left: 5px solid #ff4c2f; }
+ .sidebar_widget_title h2, .grid_head_title h3  { border-bottom: 2px solid #ff4c2f; }
+
+ .button_red{
+  background-color: #ff4c2f;
+  background-image: -moz-linear-gradient(top, #ff4c2f, #c21f1b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff4c2f), to(#c21f1b));
+  background-image: -webkit-linear-gradient(top, #ff4c2f, #c21f1b);
+  background-image: -o-linear-gradient(top, #ff4c2f, #c21f1b);
+  background-image: linear-gradient(to bottom, #ff4c2f, #c21f1b); 
+  border: 1px solid #c21f1b;
+}
+.button_red:hover{
+  background-image: -moz-linear-gradient(top, #c21f1b, #ff4c2f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c21f1b), to(#ff4c2f));
+  background-image: -webkit-linear-gradient(top, #c21f1b, #ff4c2f);
+  background-image: -o-linear-gradient(top, #c21f1b, #ff4c2f);
+  background-image: linear-gradient(to bottom, #c21f1b, #ff4c2f); 
+}
+}/*-- Tabs --*/
+.short_tabs > .active > a, .short_tabs  > .active > a:hover, .short_tabs  > .active > a:focus { background-color: #ff4c2f !important;
+	background-image: -moz-linear-gradient(top, #ff4c2f, #bb2320) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff4c2f), to(#bb2320)) !important;
+    background-image: -webkit-linear-gradient(top, #ff4c2f, #bb2320) !important;
+    background-image: -o-linear-gradient(top, #ff4c2f, #bb2320)!important;
+    background-image: linear-gradient(to bottom, #ff4c2f, #bb2320) !important; 
+}
+ .portfolio_caption:hover { border-top: 5px solid #ff4c2f; }
+ .sidebar_widget ul li a:hover, .sidebar_widget ul li a.active {Background-color: #ffffff;}
+ #post-559 { border-left: 22px solid #ff4c2f;}
