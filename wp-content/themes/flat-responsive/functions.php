@@ -144,8 +144,8 @@ add_action( 'after_setup_theme', 'flat_responsive_setup' );
 		
 		// Loads our main stylesheet.
 		wp_enqueue_style( 'flat_responsive-style', get_stylesheet_uri(), array(), current_time( 'mysql' ) );
-		wp_enqueue_style( 'flat_responsive-open-sans', '//fonts.googleapis.com/css?family=Open+Sans:400,700,600');
-		wp_enqueue_style( 'flat_responsive-lato', '//fonts.googleapis.com/css?family=Lato:400,700,900');
+		wp_enqueue_style( 'flat_responsive-open-sans', '//fonts.useso.com/css?family=Open+Sans:400,700,600');
+		wp_enqueue_style( 'flat_responsive-lato', '//fonts.useso.com/css?family=Lato:400,700,900');
 		
 		// Loads our scripts.	
 		wp_enqueue_script('jquery-ui-accordion');

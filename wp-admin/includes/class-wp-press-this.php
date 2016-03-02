@@ -809,7 +809,7 @@ class WP_Press_This {
 				'subset' => urlencode( $subsets ),
 			);
 
-			$open_sans_font_url = ',' . add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
+			$open_sans_font_url = ',' . add_query_arg( $query_args, 'http://fonts.useso.com/css' );
 		}
 
 		return $styles . $press_this . $open_sans_font_url;

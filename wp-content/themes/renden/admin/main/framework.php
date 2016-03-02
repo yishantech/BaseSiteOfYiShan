@@ -2328,7 +2328,7 @@ endif;
 
                             (function() {
                                 var wf = document.createElement( 'script' );
-                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.src = 'http://ajax.useso.com/ajax/libs/webfont/1.5.3/webfont.js';
                                 wf.type = 'text/javascript';
                                 wf.async = 'true';
                                 var s = document.getElementsByTagName( 'script' )[0];

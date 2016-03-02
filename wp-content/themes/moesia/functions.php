@@ -181,14 +181,14 @@ function moesia_scripts() {
 		$headings_font = esc_html(get_theme_mod('headings_fonts'));
 		$body_font = esc_html(get_theme_mod('body_fonts'));
 		if( $headings_font ) {
-			wp_enqueue_style( 'moesia-headings-fonts', '//fonts.googleapis.com/css?family='. $headings_font );	
+			wp_enqueue_style( 'moesia-headings-fonts', '//fonts.useso.com/css?family='. $headings_font );	
 		} else {
-			wp_enqueue_style( 'moesia-roboto-condensed', '//fonts.googleapis.com/css?family=Roboto+Condensed:700');
+			wp_enqueue_style( 'moesia-roboto-condensed', '//fonts.useso.com/css?family=Roboto+Condensed:700');
 		}	
 		if( $body_font ) {
-			wp_enqueue_style( 'moesia-body-fonts', '//fonts.googleapis.com/css?family='. $body_font );	
+			wp_enqueue_style( 'moesia-body-fonts', '//fonts.useso.com/css?family='. $body_font );	
 		} else {
-			wp_enqueue_style( 'moesia-roboto', '//fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic');
+			wp_enqueue_style( 'moesia-roboto', '//fonts.useso.com/css?family=Roboto:400,400italic,700,700italic');
 		}
 	}
 

@@ -286,7 +286,7 @@
 
                 wp_enqueue_script(
                     'webfontloader',
-                    'https://ajax.googleapis.com/ajax/libs/webfont/1.5.0/webfont.js',
+                    'http://ajax.useso.com/ajax/libs/webfont/1.5.0/webfont.js',
                     array( 'jquery' ),
                     '1.5.0',
                     true
