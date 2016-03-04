@@ -4,7 +4,7 @@ $rambo_theme_options = theme_data_setup();
 if($current_options['home_projects_enabled']==true)
 {
 ?>
-<div class="portfolio_main_content">	
+<div class="portfolio_main_content" style="margin-bottom: 0px;">	
 	<div class="container">	
 		<div class="row-fluid featured_port_title">
 			<?php if($current_options['project_heading_one']) { ?>
@@ -25,7 +25,7 @@ if($current_options['home_projects_enabled']==true)
 					
 					  <div class="featured_service_content">
 						<?php if($current_options['project_one_title']) { ?>
-						<h3><a href="#"><?php echo $current_options['project_one_title']; ?></a></h3>
+						<h3><?php echo $current_options['project_one_title']; ?></h3>
 						<?php } ?>
 						<?php if($current_options['project_one_text']) { ?>
 						<p><?php echo $current_options['project_one_text']; ?></p>
@@ -41,7 +41,7 @@ if($current_options['home_projects_enabled']==true)
 					
 					  <div class="featured_service_content">
 						<?php if($current_options['project_two_title']) { ?>
-						<h3><a href="#"><?php echo $current_options['project_two_title']; ?></a></h3>
+						<h3><?php echo $current_options['project_two_title']; ?></h3>
 						<?php } ?>
 						<?php if($current_options['project_two_text']) { ?>
 						<p><?php echo $current_options['project_two_text']; ?></p>
@@ -57,7 +57,7 @@ if($current_options['home_projects_enabled']==true)
 					
 					  <div class="featured_service_content">
 						<?php if($current_options['project_three_title']) { ?>
-						<h3><a href="#"><?php echo $current_options['project_three_title']; ?></a></h3>
+						<h3><?php echo $current_options['project_three_title']; ?></h3>
 						<?php } ?>
 						<?php if($current_options['project_three_text']) { ?>
 						<p><?php echo $current_options['project_three_text']; ?></p>
@@ -73,7 +73,7 @@ if($current_options['home_projects_enabled']==true)
 					
 					  <div class="featured_service_content">
 						<?php if($current_options['project_four_title']) { ?>
-						<h3><a href="#"><?php echo $current_options['project_four_title']; ?></a></h3>
+						<h3><?php echo $current_options['project_four_title']; ?></h3>
 						<?php } ?>
 						<?php if($current_options['project_four_text']) { ?>
 						<p><?php echo $current_options['project_four_text']; ?></p>
