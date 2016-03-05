@@ -31,3 +31,13 @@
   </div>
 </div>
 <?php get_footer();?>
+<style>
+@media only screen and (max-width: 767px) {
+    .blog_single_post {
+        margin-bottom: 0px;
+    }
+    .blog_single_post > p > iframe {
+        height: 1210px;
+    }
+}
+</style>
