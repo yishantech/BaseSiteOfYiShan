@@ -16,7 +16,7 @@ function rambo_fonts_url() {
             'subset' => urlencode( 'latin,latin-ext' ),
         );
  
-        $fonts_url = add_query_arg( $query_args, '//fonts.useso.com/css' );
+        $fonts_url = add_query_arg( $query_args, '//fonts.gmirror.org/css' );
 
     return $fonts_url;
 }
