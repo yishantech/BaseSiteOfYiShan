@@ -5,13 +5,13 @@ Move to Top Function
 @Action: flat_responsive_move_to_top
 =================================================
 */
-function flat_responsive_move_to_top_fnc() {
-	$move_to_top_check = get_theme_mod('movetotop');
-		if ($move_to_top_check) { ?>
-			<div class="flat_responsive_move_to_top"> 
-				<i class="fa fa-arrow-up"></i>
-			</div>  
-		<?php }
+function fr_move_to_top_fnc() {
+    $move_to_top_check = get_theme_mod('movetotop','1');
+        if ($move_to_top_check == 1) { ?>
+            <div class="flat_responsive_move_to_top"> 
+                <i class="fa fa-arrow-up"></i>
+            </div>  
+        <?php }
 }
 
 /*

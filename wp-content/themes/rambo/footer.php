@@ -49,7 +49,8 @@
       <div class="span3"> 2015 北京移山科技有限公司 </div> 
       <div class="span3"> 京ICP备15066584号  </div>
       <div class="span3">联系邮箱: <a href="mailto:info@yishan-tech.com"> info@yishan-tech.com</a> </div>
-      <div class="span3"> 联系QQ：1524792906</div>
+      <!-- <div class="span3"> 联系QQ：<a href="tencent://message/?uin=1524792906&Site=有事Q我&Menu=yes">1524792906</a></div> -->
+      <div class="span3"> 联系QQ：1524792906 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1524792906&site=qq&menu=yes"> <img border="0" src="http://wpa.qq.com/pa?p=2:1524792906:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></div>
     </div>
       <?php if($current_options['footer_social_media_enabled']==true) { ?>
       <div class="span4">

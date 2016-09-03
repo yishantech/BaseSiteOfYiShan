@@ -25,15 +25,6 @@ function flat_responsive_customize_register( $wp_customize ) {
 add_action( 'customize_register', 'flat_responsive_customize_register' );
 
 /**
-* Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
-*/
-
-function flat_responsive_customize_preview_js() {
-    wp_enqueue_script( 'flat_responsive_customizer', get_template_directory_uri() . '/js/flat_responsive-customizer.js', array( 'customize-preview' ), '20131012', true );
-}
-add_action( 'customize_preview_init', 'flat_responsive_customize_preview_js' );
-
-/**
      *  Testimonials Page Note
      */
     class flat_responsive_note extends WP_Customize_Control {
@@ -819,11 +810,6 @@ Basic Settings
     $wp_customize->add_setting( 'flat_responsive_move_top', array(
             'sanitize_callback' =>  'flat_responsive_sanitize_text'
         ) );
-	 $wp_customize->add_control( new flat_responsive_note ( $wp_customize,'flat_responsive_move_top', array(
-            'section'  => 'move_top_top',
-            'priority' => 1,
-     ) ) );
-
     $wp_customize->add_setting( 'movetotop', array(
 		'default'        => '1',
 		'sanitize_callback' => 'flat_responsive_sanitize_checkbox',
@@ -2397,6 +2383,9 @@ add_action('customize_controls_print_styles', 'flat_responsive_add_customizer_cs
                 background: none !important;
                    
             }
+            .wp-full-overlay.expanded.in-sub-panel .wp-full-overlay-sidebar-content a {
+				visibility: hidden;
+			}
 		</style>
 
 <?php }

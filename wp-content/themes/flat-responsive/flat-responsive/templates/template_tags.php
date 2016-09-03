@@ -1,4 +1,12 @@
 <?php
+
+/*
+=================================================
+Move to Top Action Hooks 
+=================================================
+*/
+
+add_action('fr_move_to_top', 'fr_move_to_top_fnc');
 /*
 =================================================
 Header Box Wrapper Chooser Hooks

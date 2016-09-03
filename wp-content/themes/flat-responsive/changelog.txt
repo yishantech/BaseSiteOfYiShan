@@ -148,3 +148,11 @@ Initial Release
 (February 3, 2016) Version 1.4.1 Styled Themes <www.styledthemes.com>
 
 [!] Menu in iPad bug fixed
+
+---
+
+(March 24, 2016) Version 2.0.0 Styled Themes <www.styledthemes.com>
+
+[+] Move to top features Added
+[!] Customizer js error Fixed
+[!] Customizer panel bug Fixed
