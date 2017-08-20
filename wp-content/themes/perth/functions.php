@@ -151,15 +151,15 @@ require get_template_directory() . "/widgets/contact-info.php";
 function perth_scripts() {
 
 	if ( get_theme_mod('body_font_name') !='' ) {
-	    wp_enqueue_style( 'perth-body-fonts', '//fonts.gmirror.org/css?family=' . esc_attr(get_theme_mod('body_font_name')) ); 
+	    wp_enqueue_style( 'perth-body-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('body_font_name')) ); 
 	} else {
-	    wp_enqueue_style( 'perth-body-fonts', '//fonts.gmirror.org/css?family=Roboto:500,300,500italic,300italic');
+	    wp_enqueue_style( 'perth-body-fonts', '//fonts.googleapis.com/css?family=Roboto:500,300,500italic,300italic');
 	}
 
 	if ( get_theme_mod('headings_font_name') !='' ) {
-	    wp_enqueue_style( 'perth-headings-fonts', '//fonts.gmirror.org/css?family=' . esc_attr(get_theme_mod('headings_font_name')) ); 
+	    wp_enqueue_style( 'perth-headings-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('headings_font_name')) ); 
 	} else {
-	    wp_enqueue_style( 'perth-headings-fonts', '//fonts.gmirror.org/css?family=Open+Sans:400italic,600italic,400,600,800'); 
+	    wp_enqueue_style( 'perth-headings-fonts', '//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,800'); 
 	}
 
 	wp_enqueue_style( 'perth-style', get_stylesheet_uri() );

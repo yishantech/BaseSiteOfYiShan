@@ -16,7 +16,7 @@ function appointment_fonts_url() {
             'subset' => urlencode( 'latin,latin-ext' ),
         );
  
-        $fonts_url = add_query_arg( $query_args, '//fonts.gmirror.org/css' );
+        $fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
 
     return $fonts_url;
 }

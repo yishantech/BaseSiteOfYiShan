@@ -204,7 +204,7 @@ function twentysixteen_fonts_url() {
 		$fonts_url = add_query_arg( array(
 			'family' => urlencode( implode( '|', $fonts ) ),
 			'subset' => urlencode( $subsets ),
-		), 'http://fonts.gmirror.org/css' );
+		), 'http://fonts.googleapis.com/css' );
 	}
 
 	return $fonts_url;
